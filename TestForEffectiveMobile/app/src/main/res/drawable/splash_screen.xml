@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/baseBlue"
+        android:width="414dp"
+        android:height="896dp"/>
+
+    <item android:gravity="center">
+        <shape>
+            <size
+                android:width="132dp"
+                android:height="132dp" />
+            <solid android:color="@color/baseOrange" />
+            <corners android:radius="100dp" />
+        </shape>
+    </item>
+
+    <item android:drawable="@drawable/ic_ecommerce_concept"
+        android:width="194dp"
+        android:height="68dp"
+        android:gravity="center"
+        android:left="120dp">
+    </item>
+</layer-list>
